@@ -3,7 +3,7 @@ import telebot
 import warnings
 warnings.filterwarnings("ignore", message="^PyArrow will become a required dependency of pandas.*", category=DeprecationWarning)
 
-bot = telebot.TeleBot("6834895068:AAFboiDxXMEpi7Ec-27B5RbhOqmueEVTwP4")
+bot = telebot.TeleBot(" ")
 
 
 df = pd.read_csv("misha.csv")
